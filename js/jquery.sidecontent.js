@@ -83,7 +83,7 @@
 		var config = {
 			classmodifier: "sidecontent",
 			attachto: "rightside",
-			width: "300px",
+			width: "345px",
 			opacity: "0.8",
 			pulloutpadding: "5",
 			textdirection: "vertical",
@@ -147,6 +147,7 @@
 				top: "0",
 				width: "10px",
 				zIndex: "10",
+                height:"300px",
 				opacity: config.opacity
 			});
 			
