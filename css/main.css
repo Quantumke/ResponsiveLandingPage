@@ -69,6 +69,7 @@
 			border-bottom-left-radius: 1em;
 			border-top-left-radius: 1em;
     z-index: 10000;
+    width: 50px;
     
 		}
 		
@@ -84,6 +85,7 @@
 			-webkit-border-bottom-left-radius: 1em;
 			border-bottom-left-radius: 1em;
              z-index: 100000;
+            margin-top:30px;
 		}
 		
 		.sidecontent > div > div {

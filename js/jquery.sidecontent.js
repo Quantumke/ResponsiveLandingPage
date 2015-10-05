@@ -1,10 +1,6 @@
 (function($)
 {
-	// This script was written by Steve Fenton
-	// http://www.stevefenton.co.uk/Content/Jquery-Side-Content/
-	// Feel free to use this jQuery Plugin
-	// Version: 3.0.2
-    // Contributions by: 
+	
 	
 	var classModifier = "";
 	var sliderCount = 0;
@@ -149,7 +145,7 @@
 				position: "absolute",
 				overflow: "hidden",
 				top: "0",
-				width: "0px",
+				width: "10px",
 				zIndex: "10",
 				opacity: config.opacity
 			});
@@ -168,9 +164,10 @@
 			// Set up the pullout
 			$("#" + sliderId + "_pullout").css({
 				position: "absolute",
-				top: totalPullOutHeight + "px",
+				top: totalPullOutHeight + "5px",
 				zIndex: "1000",
 				cursor: "pointer",
+                width:"200",
 				opacity: config.opacity
 			})
 			
