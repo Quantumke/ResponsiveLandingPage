@@ -66,8 +66,8 @@ body.overlay-visible {
   position: absolute;
   width: 32px;
   height: 32px;
-  right: -12px;
-  top: -12px;
+  right: -27px;
+  top: -27px;
   background-color: transparent;
   cursor: pointer;
   text-indent: -99999px;

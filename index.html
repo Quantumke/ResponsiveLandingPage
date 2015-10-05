@@ -10,7 +10,9 @@
 		<meta name="author" content="Benson Mburu" />
 		<link rel="shortcut icon" href="../favicon.ico">
 		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,600' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/overlay.css">
+		<link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<link rel="stylesheet" type="text/css" href="css/materialize.css">
@@ -37,12 +39,37 @@
 				<h1>LAIKIANA HOSPITALITY SOLUTIONS <span  style="color:#000;">Your hospitality partner <br>
 				<a href="#" style="color:#251515; font-weight: 700;">DEMO ONLY</a></span></h1>
 				<nav class="codrops-demos">
-					<a href="#">LAIKIANA SOKO</a>
-					<a href="#">LAIKIANA JOBS</a>
-					<a class="#" href="index3.html">LAIKIANA HBDS</a>
+					  <div id="container" data-overlay-page-wrap>
+			
+			<a id="overlayTrigger2" href="#myOverlay2" data-overlay-trigger>LAIKIANA SOKO</a>
+			
+
+		</div>
 				</nav>
 			</header>
-		</div><!-- /container -->
+		</div>
+		<div style="display:none;">
+			
+
+
+
+			<div id="myOverlay2" aria-labelledby="myOverlay2Heading" data-overlay-container-class="slide-down">
+			<div class="across-overlay-header"></div>
+            <div class="overlay-body-seg">         
+            </div>
+			 <div class="overlay-footer">
+
+        
+             </div>
+			
+
+			</div>
+
+			
+		</div>
+		
+        
+		<script src="js/Overlay.js"></script>
 		<script src="js/classie.js"></script>
 		<script src="js/boxesFx.js"></script>
 		<script>

@@ -1,4 +1,36 @@
-.logo{
-  margin-left: 50px;
-    margin-top: 30px;
+   #myOverlay1 {
+                width:600px;
+                height:400px;
+            }
+  #myOverlay4 {
+                width:600px;
+                height:400px;
+            }
+            #myOverlay2 {
+                width:50%;
+                height:50%;
+            }
+            #myOverlay3 {
+                
+            }
+.across-overlay-header{
+    height: 25%;
+    background:#30191B;
+    width: 100%;
+    margin-top: -16px;
+    margin-left: -16px;
+    width: 104.5%;
+    
+}
+.overlay-body-seg{
+    height: 100%;
+      background: #30280E;
+}
+.overlay-footer{
+  height: 25%;
+    background:#30191B;
+    width: 100%;
+    margin-top: -16px;
+    margin-left: -16px;
+    width: 104.5%;
 }
