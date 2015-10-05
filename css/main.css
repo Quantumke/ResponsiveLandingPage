@@ -8,6 +8,10 @@
                 height:41.5%;
             }
         
+#myOverlay4 {
+                width:50%;
+                height:41.5%;
+            }
 .across-overlay-header{
 
     width: 100%;
@@ -50,3 +54,39 @@
     padding-top: 5px;
     text-align: center;
 }
+.btn-overlay:hover{
+   background: #B29434;
+    color: white;
+}
+.sidecontentpullout {
+			background-color: Black;
+			color: White;
+			padding: 4px 3px;
+			-moz-border-radius-bottomleft: 1em;
+			-moz-border-radius-topleft: 1em;
+			-webkit-border-bottom-left-radius: 1em;
+			-webkit-border-top-left-radius: 1em;
+			border-bottom-left-radius: 1em;
+			border-top-left-radius: 1em;
+    z-index: 10000;
+    
+		}
+		
+		.sidecontentpullout:hover {
+			background-color: #444444;
+			color: White;
+		}
+		
+		.sidecontent {
+			background-color: Black;
+			color: White;
+			-moz-border-radius-bottomleft: 1em;
+			-webkit-border-bottom-left-radius: 1em;
+			border-bottom-left-radius: 1em;
+             z-index: 100000;
+		}
+		
+		.sidecontent > div > div {
+			padding-left: 10px;
+			padding-right: 40px;
+		}

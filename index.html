@@ -43,12 +43,19 @@
 			
 			<a id="overlayTrigger2" href="#myOverlay2" data-overlay-trigger>LAIKIANA SOKO</a>
             <a id="overlayTrigger3" href="#myOverlay3" data-overlay-trigger>LAIKIANA HBDS</a>
+             <a id="overlayTrigger4" href="#myOverlay4" data-overlay-trigger>LAIKIANA JOBS</a>
 			
 
 		</div>
 				</nav>
 			</header>
 		</div>
+			<div class="side" title="Slide 1">
+				<h2>Side Content</h2>
+				<p>This is the side content that you want to de-clutter from your page.</p>
+				<p>You can apply whatever CSS rules you like to this element, only the position and behaviour will be changed by the plugin.</p>
+				<p>There are plenty of configurable settings if you want to change the default behaviour!</p>
+			</div>
 		<div style="display:none;">
 			
 
@@ -98,18 +105,46 @@
 
 			</div>
 			<!---------------------------------soko------------------>
+			 <!------------JOBS----------------->
+			<div id="myOverlay4" aria-labelledby="myOverlay2Heading" data-overlay-container-class="slide-down">
+			<div class="across-overlay-header">
+			   <img src="img/logo.png" alt="logo">
+			   <p class="top-name-overlay">LAIKIANA JOBS</p>
+			</div>
+            <div class="overlay-body-seg">  
+         Are You recruiting or Looking for a job? Look no Further Laikiana allows you to find most recent jobs
+                   and gives you access to to thousands of recruiters
+                    
+                     <div class="btn-overlay">
+                         ACCESS JOBS
+                     </div>       
+            </div>
+			 <div class="overlay-footer">
+             <p> A product of Laikiana Hospitality Solutions</p>
+        
+             </div>
+			
+
+			</div>
+			<!---------------------------------soko------------------>
 			
 			
-			
+		
 			
 
 			
 		</div>
 		
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.sidecontent.js"></script>
+	<script type="text/javascript">
+		$(".side").sidecontent();
+	</script>
         
 		<script src="js/Overlay.js"></script>
 		<script src="js/classie.js"></script>
 		<script src="js/boxesFx.js"></script>
+		
 		<script>
 			new BoxesFx( document.getElementById( 'boxgallery' ) );
 		</script>
