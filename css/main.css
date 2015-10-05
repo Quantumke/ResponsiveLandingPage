@@ -8,14 +8,13 @@
             }
             #myOverlay2 {
                 width:50%;
-                height:50%;
+                height:41.5%;
             }
             #myOverlay3 {
                 
             }
 .across-overlay-header{
-    height: 25%;
-    background:#30191B;
+
     width: 100%;
     margin-top: -16px;
     margin-left: -16px;
@@ -23,14 +22,36 @@
     
 }
 .overlay-body-seg{
-    height: 100%;
-      background: #30280E;
+  color: black;
+
+
 }
 .overlay-footer{
-  height: 25%;
-    background:#30191B;
-    width: 100%;
-    margin-top: -16px;
-    margin-left: -16px;
+ margin-top: 20px;
+    background:#B29434;
     width: 104.5%;
+    height: 20%;
+    margin-left: -17px;
+    width: 104.5%;
+    text-align: center;
+    padding-top: 5px;
+}
+.top-name-overlay{
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-style:wavy;
+
+}
+.btn-overlay{
+    border:0.5px solid #B29434;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    margin-left: 40%;
+    padding-top: 5px;
+    text-align: center;
 }
