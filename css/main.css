@@ -178,3 +178,8 @@ text-decoration-style: double;
     margin-left: -10px;
 }
 
+.ad{
+  margin-top: 40px;
+    text-align: center;
+    cursor: pointer;
+}
