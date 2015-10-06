@@ -5824,7 +5824,7 @@ small {
 .btn, .btn-large {
   text-decoration: none;
   color: #fff;
-  background-color: #26a69a;
+  background-color: #B29434;
   text-align: center;
   letter-spacing: .5px;
   -webkit-transition: .2s ease-out;
@@ -5834,7 +5834,7 @@ small {
   transition: .2s ease-out;
   cursor: pointer; }
   .btn:hover, .btn-large:hover {
-    background-color: #2bbbad; }
+    background-color: #000; }
 
 .btn-floating {
   display: inline-block;
@@ -6240,7 +6240,7 @@ select:focus {
 
 button:focus {
   outline: none;
-  background-color: #2ab7a9; }
+  background-color: #B29434; }
 
 label {
   font-size: 0.8rem;
