@@ -203,3 +203,12 @@ text-decoration-style: double;
     text-decoration-style: dotted;
      color: #AA9141;
 }
+.hot-links-large{
+    height: 200px;
+    width: 100%;
+    margin-top: 30px;
+}
+.hot-links{
+    height: 200px;
+    border-left: 2px solid #AA9141;
+}
