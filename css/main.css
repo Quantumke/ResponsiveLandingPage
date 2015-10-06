@@ -183,3 +183,23 @@ text-decoration-style: double;
     text-align: center;
     cursor: pointer;
 }
+.trends-large{
+    height: 200px;
+    margin-top: 30px;
+}
+.trends{
+    height: 200px;
+   border-left: 1px solid #AA9141;
+}
+.trends-top{
+    text-align: center;
+    color: #AA9141;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+.trending-body{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+     color: #AA9141;
+}
