@@ -122,12 +122,12 @@
     cursor: pointer;
 }
 .three-modules-large{
-    height: 400px;
+
     width: 100%;
     margin-top: 20px;
 }
 .three-modules{
-    height: 400px;
+
    border: 0.5px solid  #AA9141;
 
     text-align: center;
@@ -204,12 +204,12 @@ text-decoration-style: double;
      color: #AA9141;
 }
 .hot-links-large{
-    height: 200px;
+
     width: 100%;
     margin-top: 30px;
 }
 .hot-links{
-    height: 200px;
+
     border-left: 2px solid #AA9141;
 }
 .links-title{
