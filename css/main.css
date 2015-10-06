@@ -212,3 +212,23 @@ text-decoration-style: double;
     height: 200px;
     border-left: 2px solid #AA9141;
 }
+.links-title{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #AA9141;
+    text-decoration-style: double;
+    color: #AA9141;
+    font-weight: bolder;
+}
+.links-body{
+margin-top: 10px;
+}
+.links-act:hover{
+    color: #AA9141;
+}
+.links-act{
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+}
