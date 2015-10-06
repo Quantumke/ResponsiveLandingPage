@@ -132,27 +132,48 @@
 
     text-align: center;
 }
+.three-modules:hover{
+     border: 2px solid  #AA9141;
+    border-bottom-style: double;
+
+}
 .module-head{
    height: 10%;
-    background: red;
+   border-bottom: 0.5px  #AA9141 solid;
     width: 109%;
     margin-left: -10px;
+    padding-top: 6px;
+    cursor: pointer;
+}
+.module-head:hover{
+    background: #AA9141;
+    color: black;
+
 }
 .module-title{
    height: 10%;
-    background: red;
+    text-decoration: underline;
+    text-decoration-color: #AA9141;
+    text-decoration-style: solid;
     width: 100%;
+    font-weight: bold;
+    cursor: pointer;
 
+}
+.module-title:hover{
+    text-decoration: underline;
+text-decoration-style: double;
+     text-decoration-color: #AA9141;
 }
 .module-body{
    height: 70%;
-    background: red;
+
     width: 100%;
 
 }
 .module-footer{
    height: 10%;
-    background: red;
+
     width: 109%;
     margin-left: -10px;
 }
