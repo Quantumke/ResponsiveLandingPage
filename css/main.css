@@ -132,3 +132,28 @@
 
     text-align: center;
 }
+.module-head{
+   height: 10%;
+    background: red;
+    width: 109%;
+    margin-left: -10px;
+}
+.module-title{
+   height: 10%;
+    background: red;
+    width: 100%;
+
+}
+.module-body{
+   height: 70%;
+    background: red;
+    width: 100%;
+
+}
+.module-footer{
+   height: 10%;
+    background: red;
+    width: 109%;
+    margin-left: -10px;
+}
+
